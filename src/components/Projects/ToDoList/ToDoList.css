@@ -1,0 +1,55 @@
+#list {
+  padding-bottom: 8px;
+  padding-left: 15em;
+  text-align: left;
+}
+.task {
+  font-size: 1.2em;
+}
+.completed .task {
+  text-decoration: line-through;
+  opacity: 0.5;
+}
+.input-field {
+  width: 280px;
+  height: 10px;
+  border: 2px solid #d8d8d8ff;
+  border-radius: 4px;
+  background-color: #d3d3d3ff;
+  padding: 8px;
+  font-size: 1rem;
+  margin-top: 22px;
+  margin-bottom: 8px;
+  margin-left: 250px;
+
+  color: #000000ff;
+}
+.icon {
+  margin-left: 10px;
+  cursor: pointer;
+  margin-right: 1em;
+}
+.lists {
+  background-image: url("bg-image.png");
+  min-height: 75vh;
+  min-width: 50vw;
+  background-size: cover;
+  background-position: center;
+  padding: 65px;
+  color: #333;
+}
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 55px;
+  margin-left: 200px;
+}
+ul {
+  list-style-type: none;
+}
+.pagination span {
+  font-size: 1rem;
+  font-weight: 500;
+}
